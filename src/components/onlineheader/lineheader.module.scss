@@ -1,0 +1,39 @@
+.linezujian {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  height: 45px;
+  padding: 0 10px;
+}
+.healeft {
+  width: 163px;
+  height: 32px;
+  line-height: 32px;
+  margin: 0;
+}
+.healin {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+}
+.onright {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  width: 60%;
+  height: 35px;
+  //   background-color: red;
+}
+.lineli {
+  margin-left: 20px;
+}
+:global(.ant-badge-not-a-wrapper) {
+  margin-bottom: 4px;
+}
+.bgcbtm:hover {
+  background-color: #1da57a;
+  color: #fff;
+}

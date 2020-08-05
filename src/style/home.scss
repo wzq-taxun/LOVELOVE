@@ -1,0 +1,106 @@
+.hom {
+  .ant-layout-header {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    padding: 0;
+    background-color: #fff;
+    height: 64px;
+    width: 100%;
+  }
+  .ant-layout-content {
+    padding-top: 64px;
+    width: 100%;
+    margin: 0 auto;
+    .contli {
+      position: relative;
+      width: 100%;
+      height: 798px;
+      margin-bottom: 2px;
+      .dinweihe {
+        z-index: 1000;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        .direshu {
+          font-weight: 400;
+          margin: 20px 0;
+          font-size: 18px;
+          // color: #ccc;
+        }
+      }
+    }
+  }
+
+  .ant-layout-footer {
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .ulhome {
+    width: 100%;
+    height: 100px;
+    padding: -2px 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .lihom {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+      margin: 0px;
+      flex: 1;
+      height: 100%;
+      font-size: 16px;
+      font-weight: 900;
+      color: #fff;
+      .yanse {
+        color: #f16a50;
+      }
+    }
+    .lihom:nth-child(1) {
+      background-color: #1a5f78;
+    }
+    .lihom:nth-child(2) {
+      background-color: #617dc6;
+    }
+    .lihom:nth-child(3) {
+      background-color: #0caeb1;
+    }
+  }
+  .youzhidan {
+    width: 980px;
+    margin: 30px auto;
+    height: 300px;
+    text-align: center;
+    .youzhidanul {
+      height: 300px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .leftyouzhi {
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 1;
+      }
+      .rightyouzhi {
+        height: 300px;
+        flex: 1;
+        text-align: end;
+      }
+    }
+  }
+}
+.ant-carousel .slick-slide {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  height: 800px;
+  line-height: 800px;
+  overflow: hidden;
+}

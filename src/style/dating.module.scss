@@ -1,0 +1,52 @@
+.datatall {
+  width: 100%;
+}
+.datahea {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  padding: 0;
+  background-color: #fff;
+  height: 64px;
+  width: 100%;
+}
+.dacontent {
+  padding-top: 64px;
+  width: 1152px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  height: 500px;
+  background-image: linear-gradient(#f16b4f, #fdc550);
+}
+.dah1 {
+  color: #fff;
+  font-size: 48px;
+  padding: 77px 42px 5px 37px;
+  margin: 0;
+}
+.dah3 {
+  color: #fff;
+  font-size: 26px;
+  padding: 5px 42px 35px 37px;
+  margin: 0;
+}
+.dap {
+  width: 310px;
+  height: 45px;
+  padding: 0 37px;
+}
+.babottom {
+  height: 100%;
+  width: 100%;
+}
+.daconxia {
+  width: 1152px;
+  padding: 0 40px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.carditem {
+  margin-bottom: 20px;
+}

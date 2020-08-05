@@ -1,0 +1,71 @@
+.reg {
+  width: 100%;
+}
+.regtou {
+  width: 1200px;
+  height: 42px;
+  margin: 0 auto;
+}
+.regtiao {
+  width: 100%;
+  height: 50px;
+  background-color: #1da57a;
+}
+.ult {
+  display: flex;
+  justify-content: flex-start;
+  width: 1120px;
+  margin: 0 auto;
+  height: 100%;
+}
+.uli {
+  flex: 2;
+  border-right: 1px solid #ccc;
+}
+.uli:last-child {
+  border-right: none;
+}
+.nei {
+  width: 1120px;
+  height: 800px;
+  margin: 0 auto;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding-top: 20px;
+}
+.p1,
+.p2 {
+  width: 800px;
+  text-align: center;
+  margin: 0px auto;
+}
+.p1 {
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: #0caeb1;
+}
+.p2 {
+  font-size: 18px;
+  color: #323232;
+  margin-bottom: 30px;
+}
+//  {
+//   composes: p1;
+// }
+.cardd {
+  margin: 0 auto;
+  // background-color: pink;
+}
+// :golbal(.ant-form-item-label) {
+//   width: 20px !important;
+// }
+// :global(.ant-form) {
+//   // width: 600px;
+//   margin-left: -260px;
+// }
+.rebut {
+  height: 44px;
+}
+.antregist {
+  margin-left: -260px;
+}

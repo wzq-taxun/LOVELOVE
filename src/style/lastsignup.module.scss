@@ -1,0 +1,53 @@
+.inboxall {
+  width: 100%;
+}
+.inboxhead {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  padding: 0;
+  background-color: #fff;
+  height: 64px;
+  width: 100%;
+}
+.inboconte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1152px;
+  margin: 0 auto;
+  margin-top: 64px;
+  background-color: pink;
+  height: 492px;
+  margin-bottom: 300px;
+}
+.incleft {
+  width: 388px;
+}
+.inbright {
+  width: 388px;
+  height: 389px;
+  line-height: 389px;
+  text-align: center;
+  margin-left: 40px;
+}
+.inbh1 {
+  font-size: 34px;
+  color: #fff;
+}
+.inb {
+  width: 380px;
+  height: 45px;
+}
+.inbottom {
+  width: 100%;
+  height: 100%;
+}
+.inph3 {
+  color: #fff;
+  font-size: 16px;
+}
+.inbimg {
+  width: 100%;
+  height: 100%;
+}

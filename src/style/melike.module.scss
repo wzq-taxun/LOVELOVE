@@ -1,0 +1,103 @@
+.onlikeall {
+  width: 100%;
+}
+.onlikefirst {
+  margin: 0 auto;
+  width: 1200px;
+}
+.likenav {
+  width: 100%;
+}
+.containlike {
+  width: 1200px;
+  // height: 500px;
+  margin: 100px auto;
+}
+.tabsercon {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tabserconleft {
+  width: 100%;
+  // height: 600px;
+  padding: 0;
+  margin: 0;
+}
+.tabserconright {
+  width: 500px;
+  // height: 1600px;
+  // background-color: pink;
+  padding-left: 20px;
+}
+.liserch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 152px;
+  border-bottom: 1px solid #ccc;
+}
+.tuwenulli {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.likpeo {
+  width: 250px;
+  line-height: 132px;
+  text-align: center;
+  background-color: #fff;
+}
+.imglid {
+  width: 132px;
+  height: 132px;
+  line-height: 132px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.spanid {
+  padding-left: 20px;
+  color: #212b36;
+}
+.pandora {
+  font-weight: 900;
+  font-size: 16px;
+}
+.pand {
+  font-size: 18px;
+  // oblique	将字体倾斜，将没有斜体变量（italic）的特殊字体，要应用oblique
+  font-style: italic;
+}
+.pando {
+  font-size: 20px;
+  font-weight: 900;
+}
+.imgg {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition: all 0.6s;
+}
+.imgg:hover {
+  transform: scale(1.4);
+}
+.pagee {
+  margin: 20px auto;
+  text-align: center;
+}
+.likeiconme {
+  font-size: 30px;
+  border: 1px solid #dfe3e9;
+  border-radius: 15px;
+}
+.likeiconme:hover {
+  background-color: #1da57a;
+}

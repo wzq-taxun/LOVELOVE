@@ -1,0 +1,34 @@
+.toubuhead {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  padding: 0;
+  background-color: #fff;
+  height: 64px;
+  width: 100%;
+  border-bottom: 1px solid #c4c4c4;
+  display: flex;
+  justify-content: space-between;
+}
+.homleft {
+  margin-left: 20px;
+  height: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: #1da57a;
+}
+.homcen {
+  color: #1da57a;
+  font-size: 30px;
+  cursor: pointer;
+}
+.homrig {
+  margin-right: 20px;
+}
+.ultouto {
+  display: flex;
+  justify-content: space-around;
+}
+.litobu {
+  margin-left: 10px;
+}

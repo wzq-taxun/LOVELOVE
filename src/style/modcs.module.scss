@@ -1,0 +1,34 @@
+.color {
+  color: blue;
+}
+:global(.ant-drawer-title) {
+  color: #fff;
+}
+:global(.anticon-close) {
+  color: #fff;
+}
+.ant-footer {
+  padding: 0;
+}
+:global(.reticoon) {
+  height: 46px;
+  line-height: 46px;
+  margin: 0;
+  border-bottom: 1px solid #1a5f78 !important;
+  padding: 0 12px;
+}
+:global(.retlink) {
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+}
+:global(.retlink:hover) {
+  color: #fff;
+}
+:global(.ant-drawer-body) {
+  padding: 0;
+}
+:global(.ant-drawer-header) {
+  padding-left: 12px;
+}

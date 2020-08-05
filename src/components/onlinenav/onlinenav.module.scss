@@ -1,0 +1,29 @@
+.olinnav {
+  width: 100%;
+  height: 52px;
+  line-height: 52px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.navul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+.navvli {
+  text-align: center;
+  width: 25%;
+  height: 100%;
+  cursor: pointer;
+}
+.active {
+  @extend .navvli;
+  background-color: #1da57a;
+  font-weight: 900;
+}
+.navvli:hover {
+  background-color: #1da57a;
+}

@@ -1,0 +1,82 @@
+.chitChatmain {
+  width: 100%;
+}
+.onlikefirst {
+  margin: 0 auto;
+  width: 1200px;
+}
+.likenav {
+  width: 100%;
+}
+.containlike {
+  width: 1200px;
+  // height: 500px;
+  margin: 100px auto;
+}
+.tabsercon {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tabserconleft {
+  width: 100%;
+}
+.tabserconright {
+  width: 500px;
+  // height: 1800px;
+  padding-left: 20px;
+}
+.cardneirong {
+  width: 100%;
+  // background-color: pink;
+  padding: 0px;
+}
+.ulchit {
+  width: 100%;
+  margin: 0px;
+  height: 400px;
+}
+.outercontainer {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.innercontainer {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.innercontainer::-webkit-scrollbar {
+  display: none;
+}
+.ulchitlileft {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.imgdbloc {
+  width: 60px;
+  height: 60px;
+  // background-color: pink;
+  margin-right: 20px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.ptextzi {
+  margin: 0px;
+}
+.ulchitliright {
+  width: 100%;
+  // background-color: red;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.ptextzirig {
+  @extend .ptextzi;
+  text-align: end;
+}
+

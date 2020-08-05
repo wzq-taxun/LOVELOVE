@@ -1,0 +1,57 @@
+.covermain {
+  width: 100%;
+}
+.onlikefirst {
+  margin: 0 auto;
+  width: 1200px;
+}
+.likenav {
+  width: 100%;
+}
+.containlike {
+  width: 1200px;
+  // height: 500px;
+  margin: 100px auto;
+}
+.tabsercon {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tabserconleft {
+  width: 100%;
+}
+.tabserconright {
+  width: 500px;
+  // height: 1800px;
+  // background-color: pink;
+  padding-left: 20px;
+}
+.ulcontent {
+  height: 80%;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.plistcus {
+  margin: 0px;
+  font-size: 12px;
+  color: #8f8f8f;
+}
+.tubiaodele {
+  font-size: 24px;
+  cursor: pointer;
+  color: #1da57a;
+}
+:global(.ant-list-item-meta-content) {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+:global(.ant-list-item-meta-title) {
+  font-weight: 900;
+  font-size: 20px;
+  color: #212b36;
+}

@@ -1,0 +1,107 @@
+.onlikeall {
+  width: 100%;
+}
+.onlikefirst {
+  margin: 0 auto;
+  width: 1200px;
+}
+.likenav {
+  width: 100%;
+}
+.containlike {
+  width: 1200px;
+  // height: 500px;
+  margin: 100px auto;
+}
+.resul {
+  background-color: #ccc;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 286px;
+  margin: 0;
+  padding: 0;
+}
+.resli {
+  width: 25%;
+  height: 286px;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+// .resli:hover {
+//   cursor: pointer;
+//   background-color: pink;
+
+//   // box-shadow: 1px 1px 1px #888888;
+//   // // border-radius: 10px;
+// }
+.resimg {
+  // background-color: pink;
+  width: 100%;
+  height: 100%;
+}
+.tabsercon {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tabserconleft {
+  width: 100%;
+  height: 600px;
+  padding: 0;
+  margin: 0;
+  padding-right: 50px;
+}
+.tabserconright {
+  width: 500px;
+  // height: 1800px;
+  // background-color: pink;
+  // padding-left: 20px;
+}
+
+.jibenul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 30px 0;
+  padding: 0;
+}
+.jibenlileft {
+  flex: 1;
+  margin-right: 20px;
+}
+.jibenliright {
+  // height: 124px;
+  flex: 1;
+}
+.hobylink {
+  display: flex;
+  justify-content: flex-start;
+}
+.hobyli {
+  padding: 0 10px;
+  margin-right: 10px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.iconzan {
+  font-size: 50px;
+}
+.navhead {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+}
+.navheadleft {
+  margin-right: 40px;
+}
+.slickSlide {
+  text-align: center;
+}
