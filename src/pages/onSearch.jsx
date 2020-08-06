@@ -3,7 +3,6 @@ import { connect } from "react-redux";
 import Base64 from "../ways/basecode";
 import {
   Tabs,
-  message,
   Collapse,
   Select,
   InputNumber,

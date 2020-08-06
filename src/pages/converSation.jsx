@@ -6,7 +6,6 @@ import {
   List,
   Avatar,
   Popconfirm,
-  message,
   Skeleton,
   Result,
   Button,

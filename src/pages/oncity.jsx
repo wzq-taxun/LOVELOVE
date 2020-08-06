@@ -281,7 +281,7 @@ export class oncity extends Component {
           <Tabs defaultActiveKey="1" onChange={this.callbacktab}>
             <TabPane tab="我的城市" key="1">
               <div className={styles.tabsercon}>
-                {this.state.isdispaly ? (
+                {this.state.isdispaly && lilistall.length !== 0 ? (
                   <Skeleton loading={loading} active avatar>
                     <ul className={styles.tabserconleft}>
                       {lilist}
@@ -308,7 +308,6 @@ export class oncity extends Component {
                     />
                   </ul>
                 )}
-
                 <aside className={styles.tabserconright}></aside>
               </div>
             </TabPane>
@@ -343,7 +342,6 @@ export class oncity extends Component {
                     />
                   </ul>
                 )}
-
                 <aside className={styles.tabserconright}></aside>
               </div>
             </TabPane>
